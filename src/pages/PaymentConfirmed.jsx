@@ -62,6 +62,25 @@ const Container = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    width:90%;
+    height: 50vh;
+    padding: 2rem; 
+    .completed{
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      div {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 `;
 
 

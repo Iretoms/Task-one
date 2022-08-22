@@ -43,7 +43,7 @@ const Main = styled.div`
   align-items: flex-start;
   flex-direction: column;
   gap: 2rem;
-  width: 40vw;
+  width: 50vw;
   margin: 0 auto;
 
   @media screen and (max-width: 600px) {
@@ -59,7 +59,7 @@ const Main = styled.div`
       font-size: 30px;
       line-height: 50px;
       @media screen and (max-width: 600px) {
-        font-size: 25px;
+        font-size: 24px;
         width: max-content;
       }
     }

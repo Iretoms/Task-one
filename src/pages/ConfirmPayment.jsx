@@ -64,6 +64,10 @@ const Info = styled.div`
     border-radius: 10px;
     padding: 3rem 2rem;
   }
+
+  @media screen and (max-width: 600px) {
+    width: 90vw;
+  }
 `
 const Links = styled.div`
   a {
