@@ -31,33 +31,33 @@ const Section = styled.section `
 `
 
 const Container = styled.div`
-  height: 480px;
-  width: 801px;
+  height: 30rem;
+  width: 50rem;
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
-  padding: 100px;
+  padding: 6.3rem;
   .tick {
     margin: 0 auto;
-    padding: 25px 20px;
-    height: 84px;
-    width: 84px;
+    padding: 1.6rem 1.3rem;
+    height: 5.3rem;
+    width: 5.3rem;
     border-radius: 50%;
     box-shadow: 0px 6px 10px rgba(33, 30, 67, 0.08);
   }
   .completed {
     h1 {
-      font-size: 40px;
+      font-size: 2.5rem;
       color: #4e598c;
-      margin-bottom: 32px;
+      margin-bottom: 2rem;
     }
     p {
-      font-size: 20px;
+      font-size: 1.3rem;
       color: #4f4f4f;
-      margin-bottom: 32px;
+      margin-bottom: 2rem;
     }
     div {
       a {
-        font-size: 20px;
+        font-size: 1.3rem;
        color:#f2994a;
       }
     }
