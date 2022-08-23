@@ -1,36 +1,39 @@
-import React from 'react';
-import {Link} from "react-router-dom"
-import styled from 'styled-components'
-import greentick from '../asset/jpg/tick.png'
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
+import greentick from "../asset/jpg/tick.png";
 
 const PaymentConfirmed = () => {
-    return (
-        <Section>
-            <Container>
-                <div className = 'tick'>
-                    <img src={greentick} alt='green-tick'/>
-                </div>
-                <div className='completed'>
-                    <h1>Payment Completed</h1>
-                    <p>Please check your email concerning the details of this transaction</p>
-                    <div>
-                        <Link to="/">Return Home</Link>
-                    </div>
-                </div>
-            </Container>
-        </Section>
-    );
+  return (
+    <Section>
+      <Container>
+        <div className="tick">
+          <img src={greentick} alt="green-tick" />
+        </div>
+        <div className="completed">
+          <h1>Payment Completed</h1>
+          <p>
+            Please check your email concerning the details of this transaction
+          </p>
+          <div>
+            <Link to="/">Return Home</Link>
+          </div>
+        </div>
+      </Container>
+    </Section>
+  );
 };
 
-const Section = styled.section `
-   width: 100%;
-   min-height: 100vh; 
-   display: flex;
-   justify-content: center;
-   align-items: center;
-`
+const Section = styled.section`
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 const Container = styled.div`
+  background-color: #fff;
   height: 30rem;
   width: 50rem;
   border-radius: 10px;
@@ -58,16 +61,16 @@ const Container = styled.div`
     div {
       a {
         font-size: 1.3rem;
-       color:#f2994a;
+        color: #f2994a;
       }
     }
   }
 
   @media screen and (max-width: 600px) {
-    width:90%;
+    width: 90%;
     height: 50vh;
-    padding: 2rem; 
-    .completed{
+    padding: 2rem;
+    .completed {
       h1 {
         font-size: 2rem;
       }
@@ -82,7 +85,5 @@ const Container = styled.div`
     }
   }
 `;
-
-
 
 export default PaymentConfirmed;

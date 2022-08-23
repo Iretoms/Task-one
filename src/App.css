@@ -7,4 +7,6 @@
 }
 body{
   font-family: 'Noto Sans', sans-serif;
+  background-image: url("./asset/jpg/Vector.svg");
+  background-repeat: no-repeat;
 }
